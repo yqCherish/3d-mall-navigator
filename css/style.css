@@ -101,13 +101,13 @@ html, body {
 {
     position: absolute;
     left: 70px;
-    bottom: 10%;
+    bottom: 20%;
 }
 #navigation
 {
 	position: absolute;
     left: 200px;
-    bottom: 10%;
+    bottom: 20%;
 }
 
 .btns {

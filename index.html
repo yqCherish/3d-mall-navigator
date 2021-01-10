@@ -500,13 +500,15 @@
 
 			//开始导航
 			$('#navigation').on('click', function() {
-				if (navigation) {
+				if (navigation && navi) {
 					navigation = false;
+					console.log("navi", navi);
 					//导航开始
 					navi.simulate();
 					$(this).addClass('btn-primary');
+				} else {
+					alert("请先输入目的地");
 				}
-
 			});
 
 			//第一人称和第三人称切换,第一人称地图旋转，第三人称地图不旋转
